@@ -1,0 +1,32 @@
+.outer{
+    height: 300px;
+    width: 600px;
+    border: 1.5px solid black;
+
+    display: flex;
+    gap: 50px;
+    
+}
+.inner{
+    height: 50px;
+    width: 40px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+
+    transition: all;
+}
+.inner-one{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.inner:hover{
+    width: 70px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
